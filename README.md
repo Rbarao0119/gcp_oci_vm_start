@@ -1,6 +1,6 @@
 # gcp_oci_vm_start
 ## Video
-Loom/Zoom:
+Loom/Zoom:https://www.loom.com/share/7076535b972948eabafadb24f43be0c4?sid=61865b20-b045-4dc1-bc38-b303061be763
 
 ## Prereqs
 - Cloud access to GCP and OCI
