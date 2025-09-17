@@ -36,12 +36,13 @@ Create
 5. Public IP: ephemeral
 6. Boot volume: default minimal
 
-OCI create
+![OCI Create](images/oci_create.png)
+
 
 Start/Stop
 Start:
 Stop:
-OCI running
+
 
 Terminate
 Terminate and delete boot volume; verify cleanup
