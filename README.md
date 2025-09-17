@@ -60,4 +60,4 @@ Create
 - Seems that OCI is cheaper as far as computing
 
 ## Preference (OCI vs GCP) and Why
-- I prefer to use GCP, it seemed more straighforward than OCI. OCI was a little confusing. I liked that i had the cost opened the whole time for GCP. GCP ran smoother for me personally. 
+- I prefer to use GCP, it seemed more straighforward than OCI. OCI was a little confusing. I liked that i had the cost opened the whole time for GCP. GCP ran smoother for me personally.
