@@ -15,16 +15,16 @@ Loom/Zoom:
 5. Boot disk: default minimal
 6. Network: default VPC; ephemeral public IP
 
-GCP create
+![GCP Create](images/GCP_created.png)
 
 ## Start/Stop
-Start:
+- Start:
 Stop: <state shows TERMINATED/STOPPED>
-GCP running
+![GCP Running](images/GCP_stopping.png)
 
-Delete
-Delete instance and verify no disks/IPs remain
-GCP cleaned
+## Delete
+- Delete instance and verify no disks/IPs remain
+![GCP Cleaned](images/GCP_deleted.png)
 
 ## Oracle Cloud (OCI)
 Create
@@ -39,22 +39,25 @@ Create
 ![OCI Create](images/oci_create.png)
 
 
-Start/Stop
-Start:
-Stop:
+## Start/Stop
+- Start:
+- Stop:
+![OCI Running](images/OCI_stopping.png)
 
+## Terminate
+- Terminate and delete boot volume; verify cleanup
+![OCI Cleaned](images/OCI_terminated.png)
 
-Terminate
-Terminate and delete boot volume; verify cleanup
-OCI cleaned
+# Reflections
 
-## Reflections
+## Similarities
+- Both provided OS images (LINUX, UBUNTU)
+- Virtual networking
+- Pay as you go
 
-# Similarities
-- 
+## Differences
+- GCP is more flexible 
+- Seems that OCI is cheaper as far as computing
 
-# Differences
-- 
-
-# Preference (OCI vs GCP) and Why
-- 
+## Preference (OCI vs GCP) and Why
+- I prefer to use GCP, it seemed more straighforward than OCI. OCI was a little confusing. I liked that i had the cost opened the whole time for GCP. GCP ran smoother for me personally. 
